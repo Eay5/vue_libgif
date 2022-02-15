@@ -170,4 +170,6 @@ export default {
 
   ### Github源码  https://github.com/volodyan/vue_libgif
 
+  ### 博客 https://www.cnblogs.com/volodya/p/15897439.html
+
 
