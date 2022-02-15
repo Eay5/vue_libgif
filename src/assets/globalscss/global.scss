@@ -1,0 +1,27 @@
+$vw_base: 1920;
+$vh_base: 1080;
+@function vw($px) {
+    @return ($px / $vw_base) * 100%;
+}
+
+@function vh($px) {
+    @return ($px / $vh_base) * 100vh;
+}
+
+//颜色
+$exportedValue:rgb(226, 222, 222);
+:export {
+    exportedKey: $exportedValue;
+}
+
+.not-select {
+    -moz-user-select: none;
+    /*火狐*/
+    -webkit-user-select: none;
+    /*webkit浏览器*/
+    -ms-user-select: none;
+    /*IE10*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    user-select: none;
+}
